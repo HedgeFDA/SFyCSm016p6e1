@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFyCSm016p6e1", "SFyCSm016p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFyCSm016p6e1.Tests", "SFyCSm016p6e1.Tests\SFyCSm016p6e1.Tests.csproj", "{AF17A322-7BB9-4C1B-9042-053C5DA6FAE5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{36FFFD9E-0C31-41F4-9AB6-F3E578A6655B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
