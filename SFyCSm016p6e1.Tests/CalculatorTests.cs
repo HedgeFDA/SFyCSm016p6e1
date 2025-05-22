@@ -3,15 +3,15 @@ using SFyCSm016p6e1;
 namespace SFyCSm016p6e1.Tests;
 
 /// <summary>
-/// Тесты класса <see cref="Calculator"/>.
-/// Проверяет корректность выполнения арифметических операций.
+/// РўРµСЃС‚С‹ РєР»Р°СЃСЃР° <see cref="Calculator"/>.
+/// РџСЂРѕРІРµСЂСЏРµС‚ РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚СЊ РІС‹РїРѕР»РЅРµРЅРёСЏ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёС… РѕРїРµСЂР°С†РёР№.
 /// </summary>
 public class CalculatorTests
 {
     private Calculator calculator;
 
     /// <summary>
-    /// Инициализирует экземпляр тестируемого класса.
+    /// РРЅРёС†РёР°Р»РёР·РёСЂСѓРµС‚ СЌРєР·РµРјРїР»СЏСЂ С‚РµСЃС‚РёСЂСѓРµРјРѕРіРѕ РєР»Р°СЃСЃР°.
     /// </summary>
     [SetUp]
     public void Setup()
@@ -20,7 +20,7 @@ public class CalculatorTests
     }
 
     /// <summary>
-    /// Проверяет, что метод <see cref="Calculator.Add(int, int)"/> корректно выполняет операцию.
+    /// РџСЂРѕРІРµСЂСЏРµС‚, С‡С‚Рѕ РјРµС‚РѕРґ <see cref="Calculator.Add(int, int)"/> РєРѕСЂСЂРµРєС‚РЅРѕ РІС‹РїРѕР»РЅСЏРµС‚ РѕРїРµСЂР°С†РёСЋ.
     /// </summary>
     [Test]
     public void AddMustReturnCorrectValue()
@@ -31,7 +31,7 @@ public class CalculatorTests
     }
 
     /// <summary>
-    /// Проверяет, что метод <see cref="Calculator.Subtract(int, int)"/> корректно выполняет операцию.
+    /// РџСЂРѕРІРµСЂСЏРµС‚, С‡С‚Рѕ РјРµС‚РѕРґ <see cref="Calculator.Subtract(int, int)"/> РєРѕСЂСЂРµРєС‚РЅРѕ РІС‹РїРѕР»РЅСЏРµС‚ РѕРїРµСЂР°С†РёСЋ.
     /// </summary>
     [Test]
     public void SubtractlMustReturnCorrectValue()
@@ -42,7 +42,7 @@ public class CalculatorTests
     }
 
     /// <summary>
-    /// Проверяет, что метод <see cref="Calculator.Multiply(int, int)"/> корректно выполняет операцию.
+    /// РџСЂРѕРІРµСЂСЏРµС‚, С‡С‚Рѕ РјРµС‚РѕРґ <see cref="Calculator.Multiply(int, int)"/> РєРѕСЂСЂРµРєС‚РЅРѕ РІС‹РїРѕР»РЅСЏРµС‚ РѕРїРµСЂР°С†РёСЋ.
     /// </summary>
     [Test]
     public void MultiplyMustReturnCorrectValue()
@@ -53,7 +53,7 @@ public class CalculatorTests
     }
 
     /// <summary>
-    /// Проверяет, что метод <see cref="Calculator.Divide(int, int)"/> корректно выполняет операцию.
+    /// РџСЂРѕРІРµСЂСЏРµС‚, С‡С‚Рѕ РјРµС‚РѕРґ <see cref="Calculator.Divide(int, int)"/> РєРѕСЂСЂРµРєС‚РЅРѕ РІС‹РїРѕР»РЅСЏРµС‚ РѕРїРµСЂР°С†РёСЋ.
     /// </summary>
     [Test]
     public void DivideMustReturnCorrectValue()
@@ -64,8 +64,8 @@ public class CalculatorTests
     }
 
     /// <summary>
-    /// Проверяет, что метод <see cref="Calculator.Divide(int, int)"/> если делитель равен нулю
-    ///     выбрасывает исключение <see cref="DivideByZeroException"/> 
+    /// РџСЂРѕРІРµСЂСЏРµС‚, С‡С‚Рѕ РјРµС‚РѕРґ <see cref="Calculator.Divide(int, int)"/> РµСЃР»Рё РґРµР»РёС‚РµР»СЊ СЂР°РІРµРЅ РЅСѓР»СЋ
+    ///     РІС‹Р±СЂР°СЃС‹РІР°РµС‚ РёСЃРєР»СЋС‡РµРЅРёРµ <see cref="DivideByZeroException"/> 
     /// </summary>
     [Test]
     public void DivideMustThrowException()
